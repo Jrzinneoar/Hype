@@ -57,17 +57,7 @@ else l1 = `<#${l1}>`
     .setFooter(`${message.guild.name}`,message.guild.iconURL({ dynamic: true, format: "png", size: 1024 }))
     .setTimestamp()
     
-    0:'<a:0_:1132093745131692103>',
- 1:'<a:1_:1132093814278983800>',
- 2:'<a:2_:1132093884705558628>',
- 3:' <a:3_:1132093954070945934> ',
-4:'<a:4_:1132094036753260544> ',
-5:'<a:5_:1132094083733672017> ',
-6:'<a:6_:1132094166046888006>',
-7:'<a:7_:1132094236058198088>',
-8:'<a:8_:1132094342610309233>',
-9:'<a:9_:1132094391666872360>'
- 
+    
     let butao1 = new Discord.MessageButton()
     .setEmoji('<a:1_:1132093814278983800>')
   .setStyle("SECONDARY")
@@ -216,7 +206,7 @@ case 'butao2':
   let embed2b1 = new Discord.MessageEmbed()
   .setTitle("Sistema de ban")    
   .setColor('ffffff')
-  .setDescription(| Configure nosso sistema de ban abaixo!\n\n<a:1_:1132093814278983800> Canal de log : ${msglog}\n<a:2_:1132093884705558628> Sistema de membro banido : ${msglogedit}\n<a:3_:1132093954070945934> Sistema de membro desbanido : ${msglogdel}\n<a:4_:1132094036753260544> Sistema anti privatização de ban : ${antipri}\n<a:5_:1132094083733672017> Bloquear banimentos por outros bots: ${bloqbot}\n<a:6_:1132094166046888006> Salvar configuração`)
+  .setDescription(`Configure nosso sistema de ban abaixo!\n\n<a:1_:1132093814278983800> Canal de log : ${msglog}\n<a:2_:1132093884705558628> Sistema de membro banido : ${msglogedit}\n<a:3_:1132093954070945934> Sistema de membro desbanido : ${msglogdel}\n<a:4_:1132094036753260544> Sistema anti privatização de ban : ${antipri}\n<a:5_:1132094083733672017> Bloquear banimentos por outros bots: ${bloqbot}\n<a:6_:1132094166046888006> Salvar configuração`)
   .setFooter(`${message.guild.name}`,message.guild.iconURL({ dynamic: true, format: "png", size: 1024 }))
   .setTimestamp()
      
