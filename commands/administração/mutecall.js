@@ -327,6 +327,6 @@ db.delete(`usersmuted_${message.guild.id}_${member.id}`)
    
    
   }}, ms(time))
-*/
+
     }
   }
